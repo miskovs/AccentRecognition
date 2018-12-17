@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     logger = SimpleLogger(args.verbose)
 
-    YOUR_ABSOLUTE_FFMPEG_LOCATION = r"C:\Users\micha\Downloads\ffmpeg-20181208-fe0416f-win64-static\ffmpeg-20181208-fe0416f-win64-static\bin"
+    YOUR_ABSOLUTE_FFMPEG_LOCATION = r""
     os.environ['PATH'] += os.pathsep + YOUR_ABSOLUTE_FFMPEG_LOCATION
     try:
         from pydub import AudioSegment
